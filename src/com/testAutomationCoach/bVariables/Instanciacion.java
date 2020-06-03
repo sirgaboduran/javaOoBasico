@@ -16,7 +16,7 @@ public class Instanciacion {
         String saludo = "Hola";
         String fraseBenito = "El respeto al derecho ajeno es la paz";
 
-        Perro firulais = new Perro();
+        Perro firulais = new Perro(15, "callejero", "firulais");
         fido.ladrar();
         firulais.ladrar();
         tablet.toString();

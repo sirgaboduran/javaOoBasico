@@ -1,12 +1,12 @@
 package com.testAutomationCoach.dEncapsulacion;
 
-public class Triangulo {
+public class TrianguloRectangulo {
 	
 	//propiedades o campos
 	private int base;
 	private int altura;
 	
-	public Triangulo(int base, int altura) {
+	public TrianguloRectangulo(int base, int altura) {
 		this.base = base;
 		this.altura = altura;
 	}

@@ -16,10 +16,10 @@ public class MLCrearCuenta
         String email = "test@tester.com";
         String password = "Pa$$w0rd";
 
-        navegarURL(){}
-        validarHomePage(){}
-        crearCuenta(firstName, lastName, email, password){}
-        validarCrearCuenta(){}
+        //navegarURL();
+        //validarHomePage();
+        //crearCuenta(firstName, lastName, email, password);
+       // validarCrearCuenta();
 
     }
 }

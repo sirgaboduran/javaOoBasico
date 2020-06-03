@@ -2,24 +2,38 @@ package com.testAutomationCoach.eHerencia.doctores;
 
 public class ProfesionalDeSalud {
 
-    String nombre;
-    String profesion;
+    protected String nombre;
+    protected String profesion;
 
-    public void tratarPaciente() {}
+    public ProfesionalDeSalud(String nombre, String profesion)
+    {
+        this.nombre = nombre;
+        this.profesion = profesion;
+    }
 
-    public String getNombre() {
+    public void tratarPaciente()
+    {
+        System.out.println("Saque la lengua y diga ahhh");
+        System.out.println("Pegar con el martillito en la rodilla");
+    }
+
+    public String getNombre()
+    {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre)
+    {
         this.nombre = nombre;
     }
 
-    public String getProfesion() {
+    public String getProfesion()
+    {
         return profesion;
     }
 
-    public void setProfesion(String profesion) {
+    public void setProfesion(String profesion)
+    {
         this.profesion = profesion;
     }
 

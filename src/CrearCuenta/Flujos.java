@@ -1,6 +1,6 @@
 package CrearCuenta;
 
-public class Flujos
+/*public class Flujos
 {
     flujonormal()
     {
@@ -18,4 +18,4 @@ public class Flujos
         public void captchaBicicletas()
         public void validarCrearCuenta(){}
     }
-}
+}*/

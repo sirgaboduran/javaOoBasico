@@ -33,7 +33,7 @@ public class EjemploEscuela
    // cervantes.personal = new Prefecto[1];
    // cervantes.personal[0] = martha;
 
-    virtual.grupos = new Grupo(1);
+   // virtual.grupos = new Grupo(1);
     Salon primeroA = new Salon();
 
     Grupo g = new Grupo();

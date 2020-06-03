@@ -11,7 +11,12 @@ public class Automovil {
 	private String tipoDeTransmision;
 	private int numDePuertas;
 	private int numDeLlantas;
-	
+
+	private int numRevoluciones;
+	private double litrosGasolina;
+	private double temperatura;
+
+
 	Automovil() {
 		marca = "Ford";
 		velocidadActual = 0.0;
@@ -33,16 +38,28 @@ public class Automovil {
 	public void acelerar() {
 		Input.print("run run\n");
 		this.velocidadActual += 5.0;
+		this.numRevoluciones +=1000;
+		this.litrosGasolina -=0.01 ;
+		this.temperatura +=5.0;
+
 	}
 	
 	public void frenar() {
 		Input.print("Screeeeech!\n");
 		this.velocidadActual = 0;
+		this.numRevoluciones -=1000;
+		this.litrosGasolina -=0.001 ;
+		this.temperatura +=0.01;
+
 	}
 	
 	public void retroceder() {
 		Input.print("piii piii piii piii\n");
 		this.velocidadActual -= -5;
+		this.numRevoluciones +=1000;
+		this.litrosGasolina -=0.01 ;
+		this.temperatura +=5.0;
+
 	}
 	
 	public double getVelocidad() {

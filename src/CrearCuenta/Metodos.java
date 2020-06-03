@@ -1,6 +1,6 @@
 package CrearCuenta;
 
-public class Metodos
+/*public class Metodos
 {
     public void navegarURL(){}
     public void validarHomePage(){}
@@ -13,3 +13,4 @@ public class Metodos
     public void captchaBicicletas
     public void validarCrearCuenta(){}
 }
+*/
